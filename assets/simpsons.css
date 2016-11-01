@@ -40,3 +40,31 @@ body {
 	color:red;
 	font-size: 35px;
 }
+button{
+	width:470px;
+	display:inline-block;
+	padding: 10px 0 10px 15px;
+	vertical-align: middle;
+	background: rgba(255, 255, 255, 0.7);
+	margin:10px 0 10px 10px;
+	color:#000000;
+	font-size: 30px;
+	border-radius: 20px;
+	font-family: 'Coiny', cursive;
+}
+button:hover{
+	background: #FFFF00;
+	color: #000000;
+}
+/*
+#startScreen{
+	height:455px;
+	width:1000px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform: translateX(-50%) translateY(-50%);
+	background: rgba(255,255,255,0.7);
+	padding:20px;
+	border:1px solid #08038C;
+}

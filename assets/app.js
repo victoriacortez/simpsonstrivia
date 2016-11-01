@@ -1,3 +1,9 @@
+
+ $("button").click(function () {
+        $("#startScreen").hide();
+     
+    });
+
 var questions = [{
   "question": "What's Bart's Middle Name?",
   "option1":"Jay",
@@ -40,14 +46,15 @@ var questions = [{
 }]
 
 var x = 0;
-
+//loops each question and options
 $(".display").html(questions[x].question);
 $("#opt1").html(questions[x].option1);
 $("#opt2").html(questions[x].option2);
 $("#opt3").html(questions[x].option3);
 $("#opt4").html(questions[x].option4);
 
-
+var audio = new Audio('http://www.wavsource.com/snds_2016-10-30_1570758759693582/tv/simpsons/homer/doh1_y.wav');
+//timer
 setInterval(function() {
   var timer = $('.timer').html();
   timer = timer.split(':');
@@ -61,3 +68,6 @@ setInterval(function() {
     $('.timer').html(":" + seconds);
     }
 },1000);
+audio.play();
+
+
