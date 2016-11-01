@@ -51,6 +51,8 @@ button{
 	font-size: 30px;
 	border-radius: 20px;
 	font-family: 'Coiny', cursive;
+	margin-left: 400px;
+	margin-top: 275px;
 }
 button:hover{
 	background: #FFFF00;

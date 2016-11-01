@@ -1,8 +1,9 @@
 
  $("button").click(function () {
         $("#startScreen").hide();
-     
+        $(".container").show();
     });
+$('.container').hide();
 
 var questions = [{
   "question": "What's Bart's Middle Name?",
