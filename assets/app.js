@@ -17,11 +17,11 @@ var questions = [{
   "answer":"0"
 },
 {
-  "question":"When Lisa tried to do a story for Kidz News, what was the crazy woman throwing at her?",
-  "option1": "Dogs",
-  "option2":"Bottles", 
-  "option3": "Hairdryer", 
-  "option4": "Cats", 
+  "question":"What is the name of Bart's best friend?",
+  "option1": "Carl",
+  "option2":"Jimbo", 
+  "option3": "Milhouse", 
+  "option4": "Auto", 
   "answer":"3"
 },
 {
