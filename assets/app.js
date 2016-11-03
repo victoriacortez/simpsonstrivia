@@ -91,9 +91,21 @@ function timer(){
 
 audio.play();
 
-var answers = ["0","2","3","0","3"], 
-    tot = answers.length;
 
-function getScore(){
- 
+function finalScore(){
+  var correct = 0;
+  var selectValue;
+  var questions = document.getElementsByClassName("questions");
+  var numOfQuestions = questions.length;
+
+
+for(var i = 0; i < questions.length; i++ ){
+ selectValue =  questions[i].options[questions[i].selectedIndex].value;
+  if(selectValue === "answer"){
+    correct++;
+  }
+}
+
+document.getElementById(".score").innerHTML = (5/numOfQuestions) * correct;  
+
 }
